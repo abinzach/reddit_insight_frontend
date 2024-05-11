@@ -5,7 +5,7 @@ interface ProgressProps {
   className?: string;
 }
 
-const Progress: React.FC<ProgressProps> = ({ value, className }) => {
+const ProgressLoader: React.FC<ProgressProps> = ({ value, className }) => {
   const progressStyle = {
     width: `${value}%`,
   };
@@ -20,4 +20,4 @@ const Progress: React.FC<ProgressProps> = ({ value, className }) => {
   );
 };
 
-export default Progress;
+export default ProgressLoader;
